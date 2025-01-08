@@ -1,0 +1,226 @@
+{
+    "genericErrors": [
+        {
+            "code": 1005,
+            "message": "Recurso não encontrado."
+        },
+        {
+            "code": 1006,
+            "message": "Erro interno do servidor. Tente novamente mais tarde."
+        },
+        {
+            "code": 1007,
+            "message": "Erro ao conectar ao banco de dados"
+        },
+        {
+            "code": 1008,
+            "message": "Registro não encontrado"
+        },
+        {
+            "code": 1009,
+            "message": "Operação não permitida. Verifique as permissões."
+        },
+        {
+            "code": 1011,
+            "message": "Requisição inválida. Verifique os parâmetros."
+        },
+        {
+            "code": 1012,
+            "message": "Erro de validação. Verifique os campos informados."
+        },
+        {
+            "code": 1013,
+            "message": "Limite de requisições excedido. Tente novamente mais tarde."
+        },
+        {
+            "code": 1014,
+            "message": "Token de acesso inválido. Realize o login novamente."
+        },
+        {
+            "code": 1015,
+            "message": "Falha na comunicação com serviços externos."
+        },
+        {
+            "code": 2002,
+            "message": "Erro ao consultar a quantidade total de registros"
+        },
+        {
+            "code": 1016,
+            "message": "Registro informado já existe banco de dados"
+        }
+    ],
+    "loginErrors": [
+        {
+            "code": 1001,
+            "message": "Endereço de e-mail ou senha inválido."
+        },
+        {
+            "code": 1002,
+            "message": "Usuário não encontrado."
+        },
+        {
+            "code": 1003,
+            "message": "Falha na autenticação. Verifique suas credenciais."
+        },
+        {
+            "code": 1004,
+            "message": "Permissão negada. Você não tem permissão para realizar esta ação."
+        },
+        {
+            "code": 1010,
+            "message": "Usuário não autenticado "
+        },
+        {
+            "code": 1016,
+            "message": "Conta desativada. Entre em contato com o suporte."
+        },
+        {
+            "code": 1017,
+            "message": "Erro ao renovar o token de acesso."
+        },
+        {
+            "code": 1018,
+            "message": "Senha expirada. Redefina sua senha."
+        },
+        {
+            "code": 1019,
+            "message": "Requisição de autenticação expirada. Tente novamente."
+        },
+        {
+            "code": 1025,
+            "message": "Erro ao verificar token de acesso."
+        }
+    ],
+    "registerErrors": [
+        {
+            "code": 1009,
+            "message": "E-mail ou Username já cadastrado "
+        },
+        {
+            "code": 1020,
+            "message": "Erro ao criar a conta. Tente novamente mais tarde."
+        },
+        {
+            "code": 1021,
+            "message": "Erro ao enviar e-mail de verificação."
+        },
+        {
+            "code": 1022,
+            "message": "Falha na validação do e-mail. Verifique sua caixa de entrada."
+        },
+        {
+            "code": 1023,
+            "message": "Erro ao gerar código de verificação."
+        },
+        {
+            "code": 1024,
+            "message": "Erro ao verificar a autenticidade do usuário."
+        }
+    ],
+    "cardsErrors": [
+        {
+            "code": 2001,
+            "message": "Nenhum item encontrado"
+        },
+        {
+            "code": 2003,
+            "message": "Erro ao enviar e-mail de verificação."
+        },
+        {
+            "code": 2004,
+            "message": "Falha na validação do e-mail. Verifique sua caixa de entrada."
+        },
+        {
+            "code": 2005,
+            "message": "Erro ao gerar código de verificação."
+        },
+        {
+            "code": 2006,
+            "message": "Erro ao verificar a autenticidade do usuário."
+        },
+        {
+            "code": 2007,
+            "message": "O parâmetro CardId precisa ser informado."
+        }
+    ],
+    "wishListErrors": [
+        {
+            "code": 3001,
+            "message": "Item já existe na lista de desejos."
+        },
+        {
+            "code": 3002,
+            "message": "Erro ao adicionar item à lista de desejos."
+        },
+        {
+            "code": 3003,
+            "message": "Erro ao obter itens da lita de desejos."
+        },
+        {
+            "code": 3004,
+            "message": "Erro ao remover item da lista de desejos."
+        },
+        {
+            "code": 3005,
+            "message": "Item não existente na lista de desejos."
+        }
+    ],
+    "collectionErrors": [
+        {
+            "code": 4001,
+            "message": "Erro ao criar coleção."
+        },
+        {
+            "code": 4002,
+            "message": "Erro ao atualizar coleção."
+        },
+        {
+            "code": 4003,
+            "message": "Erro ao excluir coleção."
+        },
+        {
+            "code": 4004,
+            "message": "Erro ao carregar coleções."
+        },
+        {
+            "code": 4005,
+            "message": "Nenhuma coleção cadastrada"
+        },
+        {
+            "code": 4006,
+            "message": "Coleção não pertence ao usuário."
+        },
+        {
+            "code": 4007,
+            "message": "Item ja existe nesta coleção "
+        },
+        {
+            "code": 4008,
+            "message": "Erro ao adicionar item à coleção."
+        },
+        {
+            "code": 4009,
+            "message": "Erro ao remover item da coleção."
+        },
+        {
+            "code": 4010,
+            "message": "Item não encontrado na coleção."
+        },
+        {
+            "code": 4011,
+            "message": "Erro ao recuperar lista de cards da coleção."
+        },
+        {
+            "code": 4012,
+            "message": "Erro ao modificar quantidade do item."
+        },
+        {
+            "code": 4013,
+            "message": "Card ou coleção não encontrado."
+        },
+        {
+            "code": 4014,
+            "message": "Não foi possível adicionar o item. O ID informado não existe."
+        }
+    ]
+}
