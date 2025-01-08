@@ -1,8 +1,9 @@
 import { Router } from 'express';
 
 import { UsersController } from '../controllers';
-
 import { roleControllers } from '../controllers/roles';
+import { fetchCardControllers } from '../controllers/searchCards';
+import { apiStart } from '../services/api';
 import { checkUserRole, ensureAuthenticated } from '../shared';
 import { usersRoleControllers } from './../controllers/usersRole/index';
 
@@ -18,7 +19,10 @@ router.post(
     UsersController.signUpValidation,
     UsersController.signUp
 );
-
+router.get(
+    '/api/cardSearch',
+    fetchCardControllers.fetchCardCollections(apiStart)
+);
 //WHOAMI
 
 router.get('/api/whoami', ensureAuthenticated, UsersController.whoami);

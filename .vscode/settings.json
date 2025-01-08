@@ -2,7 +2,7 @@
     "typescript.tsdk": "node_modules/typescript/lib",
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
-    "cSpell.words": ["Iremove", "naruto"],
+    "cSpell.words": ["'", "do", "Iremove", "naruto", "r"],
     "cSpell.language": "en,pt,pt-BR",
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 80
