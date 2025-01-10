@@ -5,5 +5,6 @@
     "cSpell.words": ["'", "do", "Iremove", "naruto", "r"],
     "cSpell.language": "en,pt,pt-BR",
     "editor.wordWrap": "wordWrapColumn",
-    "editor.wordWrapColumn": 80
+    "editor.wordWrapColumn": 80,
+    "npm.packageManager": "pnpm"
 }
