@@ -5,7 +5,9 @@ import { ETableNames } from '../ETableNames';
 import { Card } from '../models/cards';
 
 export const seed = async (knex: Knex): Promise<void> => {
-    const rawData = fs.readFileSync('default-cards-20250109100816.json');
+    const rawData = fs.readFileSync(
+        '/bulk_data/default-cards-20250109100816.json'
+    );
     const cards: Card[] = JSON.parse(rawData.toString());
 
     try {
