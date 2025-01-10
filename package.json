@@ -6,7 +6,7 @@
     "license": "MIT",
     "private": true,
     "scripts": {
-        "start": "yarn ts-node-dev ./src/index.ts",
+        "start": "ts-node-dev ./src/index.ts",
         "production": "node ./build/index.js",
         "preproduction": "tsc",
         "knex:migrate": "node -r dotenv/config ./node_modules/knex/bin/cli.js migrate:latest --knexfile ./src/server/database/knex/Environment.ts",
